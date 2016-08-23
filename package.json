@@ -1,59 +1,59 @@
 {
-  "name": "swagger-doc-viewer",
-  "displayName": "swagger-doc-viewer",
-  "version": "1.0.0",
-  "description": "Viewer documentation for a OpenAPI Specification (fka The Swagger Specification)",
-  "icon": "images/icon.png",
-  "galleryBanner": {
-    "color": "#424242",
-    "theme": "dark"
-  },
-  "publisher": "mimarec",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onCommand:extension.swaggerDocViewer"
-  ],
-  "main": "./extension",
-  "contributes": {
-    "commands": [
-      {
-        "command": "extension.swaggerDocViewer",
-        "title": "Swagger Doc Viewer"
-      }
-    ]
-  },
-  "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mimarec/swagger-doc-viewer.git"
-  },
-  "keywords": [
-    "Swagger",
-    "OpenAPI",
-    "Preview",
-    "Documentation",
-    "SwaggerPreview"
-  ],
-  "author": "Miguel María Martínez Echeverría",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mimarec/swagger-doc-viewer/issues"
-  },
-  "homepage": "https://github.com/mimarec/swagger-doc-viewer#readme",
-  "devDependencies": {
-    "log-level": "^1.0.0",
-    "vscode": "^0.11.17"
-  },
-  "dependencies": {
-    "express": "^4.14.0",
-    "opn": "^4.0.2",
-    "socket.io": "^1.4.8"
-  }
+    "name": "swagger-doc-viewer",
+    "displayName": "swagger-doc-viewer",
+    "version": "1.0.1",
+    "description": "Viewer documentation for a OpenAPI Specification (fka The Swagger Specification)",
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#424242",
+        "theme": "dark"
+    },
+    "publisher": "mimarec",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.swaggerDocViewer"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.swaggerDocViewer",
+                "title": "Swagger Doc Viewer"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mimarec/swagger-doc-viewer.git"
+    },
+    "keywords": [
+        "Swagger",
+        "OpenAPI",
+        "Preview",
+        "Documentation",
+        "SwaggerPreview"
+    ],
+    "author": "Miguel María Martínez Echeverría",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mimarec/swagger-doc-viewer/issues"
+    },
+    "homepage": "https://github.com/mimarec/swagger-doc-viewer#readme",
+    "devDependencies": {
+        "log-level": "^1.0.0",
+        "vscode": "^0.11.17"
+    },
+    "dependencies": {
+        "express": "^4.14.0",
+        "opn": "^4.0.2",
+        "socket.io": "^1.4.8"
+    }
 }

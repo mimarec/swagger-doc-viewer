@@ -13,9 +13,9 @@ This project is still a work in progress.
 * Used a [Express](http://expressjs.com/) server for a correct working to $ref. The base path is used to indicate the static folder containing references to the main *Swagger file*.
 * Routes used in the $ref are relative to the main *Swagger file*.
 
-![alt tag](https://github.com/mimarec/swagger-doc-viewer/blob/master/example1.png)
-![alt tag](https://github.com/mimarec/swagger-doc-viewer/blob/master/example2.png)
-![alt tag](https://github.com/mimarec/swagger-doc-viewer/blob/master/example3.png)
+![alt tag](https://raw.githubusercontent.com/mimarec/swagger-doc-viewer/master/images/example1.png)
+![alt tag](https://raw.githubusercontent.com/mimarec/swagger-doc-viewer/master/images/example2.png)
+![alt tag](https://raw.githubusercontent.com/mimarec/swagger-doc-viewer/master/images/example3.png)
 
 ## Requirements
 

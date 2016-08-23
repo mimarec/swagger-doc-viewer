@@ -1,7 +1,7 @@
 {
     "name": "swagger-doc-viewer",
     "displayName": "swagger-doc-viewer",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Viewer documentation for a OpenAPI Specification (fka The Swagger Specification)",
     "icon": "images/icon.png",
     "galleryBanner": {

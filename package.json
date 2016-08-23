@@ -3,6 +3,11 @@
   "displayName": "swagger-doc-viewer",
   "version": "1.0.0",
   "description": "Viewer documentation for a OpenAPI Specification (fka The Swagger Specification)",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#424242",
+    "theme": "dark"
+  },
   "publisher": "mimarec",
   "engines": {
     "vscode": "^1.0.0"
@@ -32,12 +37,9 @@
   "keywords": [
     "Swagger",
     "OpenAPI",
-    "API",
-    "APISpecification",
-    "Swagger2.0",
     "Preview",
-    "APIDocumentation",
-    "Documentation"
+    "Documentation",
+    "SwaggerPreview"
   ],
   "author": "Miguel María Martínez Echeverría",
   "license": "MIT",

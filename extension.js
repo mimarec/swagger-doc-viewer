@@ -23,7 +23,7 @@ function activate(context) {
         // The code you place here will be executed every time your command is executed
         let editor = vscode.window.activeTextEditor,
             doc = editor.document,
-            regex = /(.+)[\\\\\/]/g,
+            regex = /(?:.(?![\/\\]))+$/g,
             baseFile = doc.fileName,
             swaggerStatic = doc.fileName.replace(doc.fileName.match(regex)[0], '');
 

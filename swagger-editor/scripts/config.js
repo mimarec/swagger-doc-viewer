@@ -2,7 +2,8 @@
 
 var angular = require('angular');
 
-SwaggerEditor.config(function Router($compileProvider, $logProvider, markedProvider) {
+SwaggerEditor.config(function Router($compileProvider, $logProvider,
+  markedProvider) {
   var $cookies = angular.injector([require('angular-cookies')]).get('$cookies');
   var isDevelopment = Boolean($cookies.get('swagger-editor-development-mode'));
 
